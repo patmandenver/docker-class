@@ -10,6 +10,7 @@ RUN apt-get install -y \
          git \
          vim \
          tree 
+RUN apt-get install -y htop
 
 EXPOSE 9090
 
